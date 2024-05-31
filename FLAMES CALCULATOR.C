@@ -57,22 +57,22 @@ int main() {
 
     switch(result) {
         case 'F':
-            printf("Friend\n");
+            printf("Relation between %s and %s is Friends\n",name1,name2);
             break;
         case 'L':
-            printf("Lover\n");
+            printf("Relation between %s and %s is Lovers\n",name1,name2);
             break;
         case 'A':
-            printf("Affection\n");
+            printf("Relation between %s and %s is Affection\n",name1,name2);
             break;
         case 'M':
-            printf("Marry\n");
+            printf("Relation between %s and %s is Marriage\n",name1,name2);
             break;
         case 'E':
-            printf("Enemy\n");
+            printf("Relation between %s and %s is Enemy\n",name1,name2);
             break;
         case 'S':
-            printf("Siblings\n");
+            printf("Relation between %s and %s is Siblings\n",name1,name2);
             break;
         default:
             printf("Error\n");
